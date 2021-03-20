@@ -28,4 +28,6 @@ for case in range(T):
 
     print(f"Case #{case+1}: {ans}")
 
+    print('eskimo')
+
 exit()
