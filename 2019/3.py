@@ -1,8 +1,6 @@
 from sys import stdin
 from fractions import Fraction
 
-from math import sqrt
-
 def indtochr(ind):
     return chr(65+ind)
 
@@ -31,21 +29,3 @@ for case in range(T):
     print(f"Case #{case+1}: {ans}")
 
 exit()
-"""
-CJQUIZKNOWBEVYOFDPFLUXALGORITHMS
-
-CJ JQ QU UI IZ ZK KN NO OW
-
-CJJQQU * C/J = CCJQQU
-CCJQQU / CJQU = CQ
-
-CJJQQU * J/U = CJJJQQ
-
-Q/C * CQ = Q^2
-
-Q = sqrt(Q^2)
-
-CJQUIZKNOWBEVYOFDPFLUXALGORITHMS
-QUIZKNOWBEVYOFDPFLUXALGORITHMS
-
-"""
